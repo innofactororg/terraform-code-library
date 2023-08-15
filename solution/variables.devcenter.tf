@@ -6,5 +6,5 @@ variable "devcenter" {
 }
 
 variable "network_connections" {
-  default = {} 
+  default = {}
 }

@@ -4,7 +4,7 @@ locals {
     {
       # logic_app_integration_account_certificate  = var.logic_app_integration_account_certificate
       # logic_app_integration_account_session  = var.logic_app_integration_account_session
-      logic_app_standard             = var.logic_app_standard
+      logic_app_standard              = var.logic_app_standard
       integration_service_environment = var.integration_service_environment
       logic_app_action_custom         = var.logic_app_action_custom
       logic_app_action_http           = var.logic_app_action_http

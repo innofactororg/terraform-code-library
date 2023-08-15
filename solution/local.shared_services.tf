@@ -12,8 +12,8 @@ locals {
       log_analytics_storage_insights            = var.log_analytics_storage_insights
       monitor_action_groups                     = var.monitor_action_groups
       monitor_autoscale_settings                = var.monitor_autoscale_settings
-      monitor_metric_alert           = var.monitor_metric_alert
-      monitor_activity_log_alert     = var.monitor_activity_log_alert
+      monitor_metric_alert                      = var.monitor_metric_alert
+      monitor_activity_log_alert                = var.monitor_activity_log_alert
       monitoring                                = var.monitoring
       packer_build                              = var.packer_build
       packer_managed_identity                   = var.packer_managed_identity

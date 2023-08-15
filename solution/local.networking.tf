@@ -17,7 +17,7 @@ locals {
       azurerm_routes                                          = var.azurerm_routes
       cdn_endpoints                                           = var.cdn_endpoints # Check for cdn_endpoint
       cdn_profiles                                            = var.cdn_profiles  # Check for cdn_profile
-      ddos_services                                           = var.ddos_services 
+      ddos_services                                           = var.ddos_services
       dns_zone_records                                        = var.dns_zone_records
       dns_zones                                               = var.dns_zones
       domain_name_registrations                               = var.domain_name_registrations

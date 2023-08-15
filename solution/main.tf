@@ -32,11 +32,11 @@ provider "github" {
 }
 
 provider "azuread" {
-  partner_id =  "d40f4895-5a21-5612-aa15-69cd25571694"
+  partner_id = "d40f4895-5a21-5612-aa15-69cd25571694"
 }
 
 provider "azurerm" {
-  partner_id =  "d40f4895-5a21-5612-aa15-69cd25571694"
+  partner_id = "d40f4895-5a21-5612-aa15-69cd25571694"
   # partner identifier for CAF Terraform landing zones.
   features {
     api_management {
