@@ -21,11 +21,11 @@ variable "github_membership" {
 
 variable "github_teams" {
   type = map(object({
-    name                   = string
-    description            = optional(string)
-    privacy                = optional(string)
-    parent_team_key        = optional(string)
-    ldap_dn                = optional(string)
+    name                      = string
+    description               = optional(string)
+    privacy                   = optional(string)
+    parent_team_key           = optional(string)
+    ldap_dn                   = optional(string)
     create_default_maintainer = optional(bool)
   }))
   description = "A map of GitHub team names to their details."
@@ -59,12 +59,12 @@ variable "github_repositories" {
 
 variable "github" {
   type = object({
-    github_teams        = optional(map(object({
-      name                   = string
-      description            = optional(string)
-      privacy                = optional(string)
-      parent_team_key        = optional(string)
-      ldap_dn                = optional(string)
+    github_teams = optional(map(object({
+      name                      = string
+      description               = optional(string)
+      privacy                   = optional(string)
+      parent_team_key           = optional(string)
+      ldap_dn                   = optional(string)
       create_default_maintainer = optional(bool)
     })))
     github_repositories = optional(map(object({
@@ -85,7 +85,7 @@ variable "github" {
       archived               = optional(bool)
       topics                 = optional(list(string))
     })))
-    github_membership   = optional(map(object({
+    github_membership = optional(map(object({
       username = string
       role     = string
     })))

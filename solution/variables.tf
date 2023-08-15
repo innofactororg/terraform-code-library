@@ -193,7 +193,7 @@ variable "user_type" {
 
 variable "management_groups" {
   description = "Management Group configuration object"
-  default = {}
+  default     = {}
   # type = map(object({
   #   name        = string
   #   displayName = string
